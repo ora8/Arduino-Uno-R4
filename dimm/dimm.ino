@@ -8,8 +8,8 @@ extern "C" {
 
 #define GPT_MAX_PERCENT 100
 
-// #define OUTPUT_PIN BSP_IO_PORT_04_PIN_11  // Pin 411
-#define OUTPUT_PIN BSP_IO_PORT_01_PIN_03   // Pin 103
+// #define OUTPUT_PIN BSP_IO_PORT_04_PIN_11  // Pin 411 -- D11
+#define OUTPUT_PIN BSP_IO_PORT_01_PIN_03   // Pin 103 -- D10
 
 /*  chatGPT
 | Channel | Timer Instance | Pin Options (GTIOCA/GTIOCB)     |
@@ -20,8 +20,8 @@ extern "C" {
 | GPT3+   | Depends on MCU | Often reserved or internal only |
 */
 
-//#define GPT_CHANNEL 6     // Pin 411
-#define GPT_CHANNEL 2       // Pin 103
+//#define GPT_CHANNEL 6     // Pin 411 -- D11
+#define GPT_CHANNEL 2       // Pin 103 -- D10
 
 // @ renesas
 /*****************************************************************************************************************
